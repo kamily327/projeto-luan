@@ -41,7 +41,7 @@ $ingressos = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </div>
             <div class="flex items-center gap-4">
                 <a href="index.php" class="py-3 px-6 bg-white/5 border border-white/10 text-white font-black uppercase text-xs tracking-widest rounded-xl hover:bg-white/10 transition duration-300">
-                    Ver Shows
+                    Voltar
                 </a>
                 <a href="logout.php" class="py-3 px-6 bg-red-500/10 border border-red-500/20 text-red-400 font-black uppercase text-xs tracking-widest rounded-xl hover:bg-red-500/20 transition duration-300">
                     Sair
