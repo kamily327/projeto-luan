@@ -57,7 +57,7 @@ O banco de dados relacional foi modelado no MySQL para garantir a integridade re
 * **`eventos`**: Centraliza os shows disponíveis da tour (Local, Data, Preço Base).
 * **`ingressos`**: Tabela pivot que relaciona o usuário ao show comprado, guardando o setor escolhido, valor final pago e data da transação.
 
-> 💡 *Nota: O script estrutural para criação das tabelas e relacionamentos está disponível no arquivo `banco.sql` na raiz deste repositório.*
+> 💡 *Nota: O script estrutural para criação das tabelas e relacionamentos está disponível no arquivo `db_luan.sql` na raiz deste repositório.*
 
 ---
 
@@ -66,5 +66,5 @@ O banco de dados relacional foi modelado no MySQL para garantir a integridade re
 1. Certifique-se de ter o **XAMPP** instalado (com PHP 8.x).
 2. Clone este repositório dentro da sua pasta `xampp/htdocs/`.
 3. Ative a extensão **GD** no seu arquivo `php.ini` do XAMPP (removendo o `;` da linha `extension=gd`) e reinicie o Apache.
-4. Importe o arquivo `banco.sql` no seu `phpMyAdmin`.
+4. Importe o arquivo `db_luan.sql` no seu `phpMyAdmin`.
 5. Acesse no seu navegador: `http://localhost/projeto_luan/index.php`.
